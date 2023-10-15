@@ -18,16 +18,16 @@ const colors = ["tangerine", "magenta", "lilac", "daffodil"]
 const cohort = "LEARN 2023"
 // console.log(cohort.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: my answer was 9
+// b) Verify and explain: .length reads the amount of characters from the string and gives you the answer
 
 // --------------------2) What will this log?
 
 const greeting = "Hello World!"
 // console.log(greeting[4])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: my answer is it will give is l 
+// b) Verify and explain: the index or [4] will count the position which is l
 
 // --------------------3) What will this log?
 
@@ -35,21 +35,21 @@ const languages = ["JavaScript", "Ruby", "Python", "C++"]
 const index = 1
 // console.log(languages[index])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: the answer is going to be "ruby"
+// b) Verify and explain: the index will ready the strings in the array starting from 0. 0 being Js and 1 being ruby
 
 // --------------------4) What will this log?
 
 const weekendDays = ["saturday", "sunday"]
 // console.log(weekendDays.toUpperCase())
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: it will upper case weekendDays
+// b) Verify and explain: there is a syntax error. you cannot UpperCase both of those strings inside an array
 
 // --------------------5) What will this log?
 
 const dataTypes = ["number", "string", "Boolean", "undefined"]
 // console.log(typeof dataTypes.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: i belive you will get number
+// b) Verify and explain: the .length is a always a number. so when used on an array it will return back nummber

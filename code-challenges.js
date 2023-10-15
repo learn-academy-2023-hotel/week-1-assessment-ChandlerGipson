@@ -26,20 +26,37 @@ const fruit2 = "banana"
 
 const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
 const padres1998WorldSeriesRuns = [6, 3, 5, 3]
+console.log(padres1984WorldSeriesRuns.length + padres1998WorldSeriesRuns.length)
 // Expected output: 9
 
+
 // Pseudo code:
+// input: i want to get the length of my first and second array as well as combine them
+// output: did console.log with the first array .length and added it to second array .length
 
 // --------------------2) Create the code that will reverse the letters of a string using the test variable provided below.
 
-const currentCohort = "Golf 2023"
+const currentCohort = "Hotel 2023"
 // Expected output: "3202 floG"
+// currentCohort.split('').reverse().join('')
+console.log(currentCohort.split('').reverse().join(''))
+// // Pseudo code:
+//input: i  wanted to flip the const but in order to turn a string into an array i need to .split it first
+//output: once the string has been spit i can .reverse it, following the .reverse i need to .join it. i added all of that into the conse.log
 
-// Pseudo code:
+
 
 // --------------------3) Create the code that will log only the odd numbers from the array using the test variable provided below.
 
 const stockExchange = [13, 34, -4, 42, 5, -5, 10, 27, 42, 10]
 // Expected output: 13 5 -5 27
+for(let i = 0 ; i < stockExchange.length; i++){
+    if(stockExchange[i] % 2 !== 0){
+    console.log(stockExchange[i])
+    }
+}
 
 // Pseudo code:
+//when it comes to evens or odds i know you need to use %. % means cannot be equal to.  im let index = 0 my index connot be larger than the array
+// index is at the second power. if the array[index] divided by 2 cannot equal to 0 so it has to go to an odd number which is what im having the console.log do
+// if the number can be divided by two it wont spit out that number.
